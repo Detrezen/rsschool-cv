@@ -17,6 +17,9 @@
     font-family: MyRobotoItalic;
     src: url(fonts/Roboto-Italic.ttf);
 }
+body {  
+        
+}
 main {
         height: 842px;
         width: 595px;
@@ -25,7 +28,27 @@ main {
         margin-right: auto;
         background-color: #E0FFFF;
         font-family: 'MyRobotoRegular', Arial, Verdana, Tahoma, sans-serif;
+        float: center;
+  
     }
+.leftSide {
+        height: 100%;
+        width: 40%;
+        /* to centre page on screen*/
+        margin-left: 0;
+        margin-right: 0;
+        background-color: #173899;  
+        float: left;
+    }
+.rightSide {
+        height: 100%;
+        width: 60%;
+        /* to centre page on screen*/
+        margin-left: 40%;
+        margin-right: 0;
+        background-color: #b3c6ff;
+        
+}
 img {
         width: 100%;
         margin: 0;
@@ -34,25 +57,7 @@ img {
   a {
         text-decoration:none;
     }
-.leftSide {
-        height: 100%;
-        width: 40%;
-        /* to centre page on screen*/
-        margin-left: 0;
-        margin-right: 0;
-        background-color: blue;  
-        float: left;
-    }
 
-.rightSide {
-        height: 100%;
-        width: 60%;
-        /* to centre page on screen*/
-        margin-left: 60%;
-        margin-right: 0;
-        background-color: red;
-        float: right;
-}
 .myName {
       color: #5276A5;
       padding: 0 0 0 10%;
