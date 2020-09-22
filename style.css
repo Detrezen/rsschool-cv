@@ -1,0 +1,80 @@
+@font-face {
+    font-family: MyRobotoRegular;
+    src: url(fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: MyRobotoBoldItalic;
+    src: url(fonts/Roboto-BoldItalic.ttf);
+}
+
+@font-face {
+    font-family: MyRobotoBold;
+    src: url(fonts/Roboto-Bold.ttf);
+}
+
+@font-face {
+    font-family: MyRobotoItalic;
+    src: url(fonts/Roboto-Italic.ttf);
+}
+main {
+        height: 842px;
+        width: 595px;
+        /* to centre page on screen*/
+        margin-left: auto;
+        margin-right: auto;
+        background-color: #E0FFFF;
+        font-family: 'MyRobotoRegular', Arial, Verdana, Tahoma, sans-serif;
+    }
+img {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+  a {
+        text-decoration:none;
+    }
+.leftSide {
+        height: 100%;
+        width: 40%;
+        /* to centre page on screen*/
+        margin-left: 0;
+        margin-right: 0;
+        background-color: blue;  
+        float: left;
+    }
+
+.rightSide {
+        height: 100%;
+        width: 60%;
+        /* to centre page on screen*/
+        margin-left: 60%;
+        margin-right: 0;
+        background-color: red;
+        float: right;
+}
+.myName {
+      color: #5276A5;
+      padding: 0 0 0 10%;
+      margin: 0;
+      font-size: 36px;
+    }
+.profi {
+      color: white;
+      padding: 0 0 50% 10%;
+      margin: 0;
+    }
+.nameArticle {
+      color: white;
+      padding: 0 0 0 10%;
+      margin: 0;
+    }
+.asideArticle {
+      color: white;
+      padding: 0 0 0 10%;
+      margin: 0;
+    }
+.contacts {
+      padding: 35px 0 0 0;
+      margin: 0;
+     }
